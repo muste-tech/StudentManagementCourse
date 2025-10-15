@@ -1,0 +1,14 @@
+C:\Users\OWNER\OneDrive\Desktop\muste3\bin\Debug\net7.0\muste3.exe
+C:\Users\OWNER\OneDrive\Desktop\muste3\bin\Debug\net7.0\muste3.deps.json
+C:\Users\OWNER\OneDrive\Desktop\muste3\bin\Debug\net7.0\muste3.runtimeconfig.json
+C:\Users\OWNER\OneDrive\Desktop\muste3\bin\Debug\net7.0\muste3.dll
+C:\Users\OWNER\OneDrive\Desktop\muste3\bin\Debug\net7.0\muste3.pdb
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.AssemblyInfoInputs.cache
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.AssemblyInfo.cs
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.dll
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\refint\muste3.dll
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.pdb
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\muste3.genruntimeconfig.cache
+C:\Users\OWNER\OneDrive\Desktop\muste3\obj\Debug\net7.0\ref\muste3.dll
