@@ -8,39 +8,54 @@ namespace Mustakim
 
         public Student(string name, string department):base(name)
         {
-          
-            _Id = GenerateId();
+            try
+            {
+                if (string.IsNullOrEmpty(department))
+                {
+                    throw new ArgumentException("Department cannot be null or empty");
+                }
+             _Id = GenerateId();
             Department = department;
             EnrolledCourses = new List<Course>();
+          }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating student : {ex.Message}");
+                throw;
+            }       
              
     }
         private string GenerateId()
         {
-            string id = $"{new Random().Next(1000, 9999)}";
-            return id;
-     }
-         public override void DisplayInfo()
-    {
-        base.DisplayInfo();
-        Console.WriteLine($"ID: {_Id}");
-        Console.WriteLine($"Department: {Department}");
-    }
-
-    public void EnrollCourse(Course course)
-        {
             try
             {
-                if (EnrolledCourses.Contains(course))
-                {
-                    throw new Exception("Student is already enrolled in this course.");
-                }
-                EnrolledCourses.Add(course);
+                  string id = $"{new Random().Next(1000, 9999)}";
+            return id;
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine($"Error generating an Id : {ex.Message}");
+                throw;
             }
+          
+     }
+         public override void DisplayInfo()
+    {
+        try
+        {
+              base.DisplayInfo();
+        Console.WriteLine($"ID: {_Id}");
+        Console.WriteLine($"Department: {Department}");
         }
+        catch (Exception ex)
+        {
+                Console.WriteLine($"Error diplaying student info: {ex.Message}");
+            
+        }
+      
+    }
+
+   
 
 }
 
