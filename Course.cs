@@ -15,7 +15,7 @@ namespace Mustakim
 
     public void DisplayInfo()
     {
-        Console.WriteLine($"{CourseCode} - {Title} ({Unit} units)");
+        Console.WriteLine($"{CourseCode} - {Title} {Unit} units");
     }
 }
 
