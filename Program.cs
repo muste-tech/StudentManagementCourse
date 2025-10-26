@@ -149,11 +149,12 @@ namespace Mustakim
                 {
                  
                    
-                    Console.Write("Enter student matric to enroll in course:");
-                    string matric = Console.ReadLine();
+                    
                      managementSystem.DisplayCourse();
                     Console.Write("Enter course code:");
                     string courseCode = Console.ReadLine();
+                    Console.Write("Enter student matric to enroll in course:");
+                    string matric = Console.ReadLine();
                     managementSystem.EnrollStudentInCourse(matric, courseCode);
                 }
                 catch (Exception ex)
@@ -161,7 +162,6 @@ namespace Mustakim
                     Console.WriteLine($"Error enrolling student in course: {ex.Message}");
                     
                 }
-
 
 
 
